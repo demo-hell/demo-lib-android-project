@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Paragraph_100_Regular_10_display_300" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_10sp</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_5sp</item>
+        <item name="android:textColor">@color/display_300</item>
+    </style>
+    <style name="Paragraph_200_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="android:textColor">@color/display_400</item>
+    </style>
+
+    <style name="Paragraph_300_display_300" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/display_300</item>
+    </style>
+
+    <style name="Paragraph_300_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/display_400</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_6sp</item>
+    </style>
+
+    <style name="Paragraph_300_success_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/success_400</item>
+    </style>
+
+    <style name="Paragraph_300_bold_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/display_400</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Paragraph_100_bold_10_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_10sp</item>
+        <item name="android:textColor">@color/display_400</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Paragraph_300_Regular_14_display_500" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/display_500</item>
+    </style>
+
+    <style name="Paragraph_400_Regular_16_display_300" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_300</item>
+    </style>
+
+    <style name="Paragraph_400_Regular_16_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_400</item>
+        <item name="android:lineSpacingExtra">@dimen/dimen_6sp</item>
+    </style>
+
+    <style name="Paragraph_400_bold_display_500" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_500</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Paragraph_500_bold_display_500" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/ubuntu</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:textColor">@color/display_500</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label_400_Alternate_brand_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/brand_400</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Label_300_Alternate_14_brand_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:textColor">@color/brand_400</item>
+    </style>
+
+    <style name="Heading_400_Bold_16_display_400" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_400</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading_400_Bold_16_display_500" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+
+    <style name="Heading_400_Bold_16_display_600" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_16sp</item>
+        <item name="android:textColor">@color/display_600</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading_500_Bold_18_display_500" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:textColor">@color/display_500</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Heading_500_Bold_18_display_600" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:textColor">@color/display_600</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

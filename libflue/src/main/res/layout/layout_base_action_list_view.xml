@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/llPrefix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                style="@style/Paragraph_400_Regular_16_display_400"
+                android:id="@+id/tvText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                tools:text="@string/text_ononono"
+                />
+            <LinearLayout
+                android:id="@+id/llSufix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        <View
+            android:id="@+id/dividerView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/display_200"
+            />
+    </LinearLayout>
+
+</merge>

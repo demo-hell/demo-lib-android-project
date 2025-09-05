@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_16dp"
+    android:orientation="vertical"
+    tools:context=".HorizontalActivity">
+
+    <br.com.cielo.libflue.horizontal.CieloHorizontalRegularTextSingle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        />
+
+    <br.com.cielo.libflue.horizontal.CieloHorizontalRegularTextCheckbox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:text="Item"
+        />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/actionsListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionsList"
+        />
+
+    <Button
+        android:id="@+id/horizontalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horizontal"
+        />
+
+    <br.com.cielo.libflue.inputtext.CieloPasswordTextInputView
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonComponentSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:text="Start Component Select"/>
+
+    <br.com.cielo.libflue.button.CieloRegularWhiteButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40dp"
+        android:text="Start White Button"
+        />
+
+</LinearLayout>

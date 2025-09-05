@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_145EB3">#145EB3</color>
+    <color name="color_017CEB">#017CEB</color>
+    <color name="color_C5CED7">#C5CED7</color>
+    <color name="color_5A646E">#5A646E</color>
+    <color name="color_8A99A8">#8A99A8</color>
+    <color name="color_353A40">#353A40</color>
+    <color name="color_EAEEF3">#EAEEF3</color>
+    <color name="transparent_white_30">#1Ab7c5e8</color>
+
+    <color name="nublado_100">#EAEEF3</color>
+    <color name="nublado_200">#C5CED7</color>
+    <color name="nublado_300">#8A99A8</color>
+    <color name="nublado_400">#5A646E</color>
+    <color name="nublado_600">#231F20</color>
+
+    <color name="cielo_400">#017CEB</color>
+    <color name="cielo_500">#145EB3</color>
+
+    <color name="perigo_400">#DC392A</color>
+    <color name="danger_400">#DC392A</color>
+
+    <color name="display_0">#FFFFFF</color>
+    <color name="display_50">#F2F4F8</color>
+    <color name="display_100">#EAEEF3</color>
+    <color name="display_200">#C5CED7</color>
+    <color name="display_300">#8A99A8</color>
+    <color name="display_400">#5A646E</color>
+    <color name="display_500">#353A40</color>
+    <color name="display_600">#231F20</color>
+
+    <color name="success_400">#009E55</color>
+
+    <color name="brand_400">#017CEB</color>
+
+</resources>

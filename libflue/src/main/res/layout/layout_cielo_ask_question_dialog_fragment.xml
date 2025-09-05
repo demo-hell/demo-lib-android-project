@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filled_rounded_shape_cielo_alert_dialog">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/nublado_600"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Você quer usar outra conta?" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/messageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/nublado_600"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        tools:text="Os dados da conta atual não ficarão salvos nesse celular" />
+
+    <Button
+        android:id="@+id/positiveButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/cielo_blue_button_view_selector"
+        android:enabled="true"
+        android:fontFamily="@font/montserrat"
+        android:text="Usar outra conta"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cancelButtonView"
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/cancelButtonView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@android:string/cancel"
+        android:textColor="@color/cielo_outline_text_button_view_selector"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:background="@drawable/cielo_outline_blue_buttom_view_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/positiveButtonView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
